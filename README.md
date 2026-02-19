@@ -13,11 +13,11 @@
 
 ---
 
-## 👨‍� About Me
+## About Me
 
 I am a Graduate Computer Science student at **Texas A&M University** (GPA 4.0/4.0), specializing in **Security Engineering**, **Zero-Trust Architectures**, and **Quantum-Safe Systems**. With a background as an SDE at **Zscaler**, I bridge the gap between building high-performance software and ensuring its resilience against advanced threats.
 
-**🚀 Currently seeking Summer 2026 internships in Security Engineering & SDE.**
+**🚀 Currently seeking Summer 2026 internships in Research, Security & SDE.**
 
 ---
 
@@ -26,32 +26,24 @@ I am a Graduate Computer Science student at **Texas A&M University** (GPA 4.0/4.
 - **Quantum-Safe Protocols**: Architecting systems resilient to future cryptographic challenges (Kyber, Dilithium).
 - **AI/ML Security**: Detecting prompt injections and securing LLM-backed interfaces.
 - **Cloud Infrastructure**: Automating secure, zero-trust cloud provisioning using Terraform and Ansible.
-- **Digital Agriculture Security**: Researching cyber resilience in IoT-driven smart farming ecosystems.
 
 ---
 
 ## 🌟 Featured Projects
 
-### [SMCP: Secure Model Context Protocol](https://github.com/srivarenya01)
+### [SMCP: Secure Model Context Protocol]
 
 _Post-Quantum Security for AI Tools_
 
 - Architected a quantum-safe protocol using **Kyber-768 + X25519**.
-- Implemented WASM-based sanitizers and DID identity verification to prevent MITM and injection attacks.
+- Implemented sanitizers and DID identity verification to prevent MITM and injection attacks.
 
-### [ZTBI: Zero Trust Browser Interface](https://github.com/srivarenya01)
+### [ZTBI: Zero Trust Browser Interface]
 
 _ML-Driven Threat Detection_
 
 - Built a Chrome extension using **DistilBERT/ONNX** to identify malicious LLM prompts in real-time.
 - Engineered a visibility engine to detect PII exfiltration and tag-splitting attempts.
-
-### [Cyber Resilience in Smart Farming](https://github.com/srivarenya01)
-
-_SoK Research - Texas A&M GAIA Group_
-
-- Defined a 4-layer security architecture for Ag-IoT ecosystems.
-- Synthesized a comprehensive Cyber Resilience Lifecycle for autonomous agricultural systems.
 
 ---
 
