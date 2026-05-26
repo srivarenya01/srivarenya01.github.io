@@ -14,10 +14,11 @@
 ---
 
 ## About Me
+## About Me
 
 I am a Graduate Computer Science student at Texas A&M University (GPA 4.0/4.0), specializing in Systems Security and Machine Learning. I conduct research under **Dr. Marcus Botacin's Lab** focusing on malware analysis, system threat modeling, and streaming algorithms. I also collaborate with the GAIA research group on scaling deep transfer learning pipelines on High-Performance Computing (HPRC) clusters.
 
-Currently seeking Summer 2026 internships in Security Engineering & SDE.
+Currently seeking Summer 2026 internships in Research, Security & SDE.
 
 ---
 
