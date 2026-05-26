@@ -1,0 +1,142 @@
+# Varenya Sri Mudumba
+
+Graduate Student in Computer Science at Texas A&M University (GPA 4.0/4.0) specializing in Zero-Trust, Cloud Infrastructure, Software Security, and Secure AI.
+
+- Email: srivarenya@tamu.edu
+- Phone: +1 (979) 344-8215
+- Location: College Station, TX 77840
+- GitHub: [srivarenya01](https://github.com/srivarenya01)
+- LinkedIn: [mudumbasrivarenya](https://www.linkedin.com/in/mudumbasrivarenya/)
+
+---
+
+## Technical Skills
+
+- **Languages**: C/C++, Python, Rust, Go, JavaScript, SQL, Bash
+- **Security & Cryptography**: Post-Quantum Cryptography, Malware Analysis, Systems & Network Security, Secure Coding (SSDLC), Threat Modeling, SAST / DAST, PKI / TLS, Noise Protocol
+- **Infrastructure & DevOps**: Terraform, Ansible, Jenkins, GitHub Actions, AWS, GCP, Docker, Linux
+- **AI & Machine Learning**: PyTorch, Large Language Models (LLMs), Machine Learning Algorithms, Deep Learning, Fine-Tuning (LoRA/PEFT), ONNX / Edge AI, Transfer Learning, High-Performance Computing (HPC)
+- **Databases & Analytics**: PostgreSQL, MySQL, MongoDB (NoSQL), Redis, OpenSearch, Kibana, Vector Databases, Prometheus / Grafana
+- **Web & Middleware**: React.js, Node.js, Express, WASM, gRPC, REST APIs, OAuth 2.0 / OIDC, WebSockets
+
+---
+
+## Education
+
+### Texas A&M University
+- **Degree**: Master of Science in Computer Science
+- **GPA**: 4.0 / 4.0
+- **Key Coursework**: Analysis of Algorithms, Software Security, Security Engineering, Natural Language Processing, Intelligent User Interfaces, Cybersecurity Risk Management
+
+### National Institute of Technology, Durgapur
+- **Degree**: Bachelor of Technology in Computer Science and Engineering
+- **GPA**: 8.84 / 10.00
+- **Research**: Undergraduate Research Assistant under Prof. Bibhash Sen's lab focusing on Hardware Trojan detection using optimization algorithms.
+- **Key Coursework**: Design & Analysis of Algorithms, Operating Systems, Data Communication & Computer Networks, Software Engineering, Database Management Systems, Embedded Systems, Internet of Things, Theory of Computation, Discrete Mathematics, Digital Logic Design
+
+---
+
+## Professional Experience
+
+### Graduate Researcher (Dr. Marcus Botacin's Lab)
+**Texas A&M University, Department of Computer Science and Engineering** | *Aug 2025 - Present*
+- Researching streaming algorithms for malware analysis to enable efficient and faster YARA rule generation.
+- Testing and evaluating unique, novel, and mixed/hybrid detection algorithms.
+
+### Student Research Assistant (GAIA Group)
+**Texas A&M University, Dept. of Soil & Crop Sciences** | *Dec 2025 - Present*
+- Collaborating with the GAIA research group on digital agricultural challenges.
+- Scaling transfer learning models to analyze multi-spectral soil data.
+- Leveraging High-Performance Computing (HPRC) clusters to accelerate deep learning pipelines.
+
+### Undergraduate Research Assistant (Prof. Bibhash Sen's Lab)
+**NIT Durgapur** | *Jan 2023 - May 2024*
+- Developed optimization-driven test pattern generation frameworks for detecting Hardware Trojans in digital circuits.
+- Published research findings in IEEE IATMSI 2024.
+
+### Software Development Engineer (SDE)
+**Zscaler** | *Dec 2024 - Aug 2025*
+- Built and enhanced a custom Pytest-based testing and monitoring infrastructure executing 900+ daily regression tests, reducing feedback cycles to hours.
+- Automated multi-node cloud environments on AWS using Terraform and Ansible, reducing provisioning time from 18 hours to 3 hours.
+- Conducted security and maintainability reviews for 70+ pull requests.
+
+### Associate Software Development Engineer (ASDE)
+**Zscaler** | *Sep 2024 - Dec 2024*
+- Migrated legacy cloud management modules to a unified modern architecture, cutting technical debt by 50%.
+- Integrated secure access features for Zscaler Private Access (ZPA) across 7 internal application teams.
+
+### Software Developer Intern
+**Zscaler** | *Feb 2024 - Sep 2024*
+- Automated sim-box environment lifecycle on AWS using EC2, S3, and AWS Secrets Manager.
+- Developed dashboards in Kibana/OpenSearch to monitor 1,000+ metrics and analyze performance bottlenecks.
+
+### Software Developer Intern
+**Athen Tech India** | *Jul 2023 - Jul 2023*
+- Developed a customer-facing chatbot in JavaScript, integrating Rule-Based NLP to resolve over 60% of common support inquiries.
+
+---
+
+## Key Projects
+
+### HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)
+*Code withheld: Submitted for double-blind review at a major conference. Repository private during review.*
+Secure middleware designed for Model Context Protocol (MCP) servers and clients.
+- Implemented a post-quantum Kyber-768/X25519 hybrid Key Encapsulation Mechanism (KEM) integrated into a Noise XX handshake.
+- Built decentralized identifier (DID) authentication, a 3-tier inputs sanitizer (detecting homoglyphs, mixed-script, and control characters), rate limiting, and semantic similarity guardrails.
+
+### GPL: Graduated Penalty Loss for Continual Learning
+*Code withheld: Submitted for double-blind review at a major conference. Repository private during review.*
+An advanced loss formulation targeting general continual learning settings.
+- Designed a phase-aware strictness scheduler based on expected output entropy and a Leitner-box retry-escalation mechanism.
+- Evaluated performance on TAMU HPRC clusters over synthetic datasets, documenting improvements in catastrophic forgetting on GLUE benchmarks for BERT and GPT-2.
+
+### DepScan: Hybrid Dependency Upgrade Analysis Engine
+*Repository link: https://github.com/srivarenya01/depscan*
+A hybrid dependency upgrade analysis engine in Go combining native AST structural call-graph extraction with LLM reasoning (Gemini/Gemma) to evaluate upgrade safety.
+- Parses ASTs in Go, Python, and Node.js to extract precise symbol call-graphs and relevant execution paths.
+- Traces execution chains and applies LLM reasoning to identify structural breaks, signature alterations, default arguments, exception semantics, and edge-case regressions.
+- Out-of-the-box CI/CD integration with GitHub Actions annotations and Slack Block Kit webhooks.
+
+### LLM Self-Correction SFT (Research Study)
+*arXiv preprint pending double-blind review.*
+Fine-tuning and evaluation of self-correction behaviors in LLMs.
+- Executed LoRA SFT on Qwen2.5-Coder-7B-Instruct using CodeContests.
+- Documented severe distribution shifts on benchmarks, showing baseline vs. SFT scores: HumanEval (57.93% vs 50.61%), MBPP (4% vs 0%), and Codeforces (8.7% vs 0%).
+
+### Cyber Risk of Shadow AI (Threat Modeling Study)
+*arXiv preprint pending double-blind review.*
+A comprehensive threat analysis examining the risks of unauthorized enterprise LLM usage.
+- Mapped threat patterns to NIST CSF 2.0, NIST AI RMF, ISO 42001, and OWASP Top 10 for LLMs.
+- Synthesized enterprise mitigations including tenant restrictions, Semantic Prompt Firewalls, and local RAG sandboxes.
+
+### ZTBI: Zero Trust Browser Interface
+Chrome extension built to protect against prompt injection and data exfiltration.
+- Integrated DistilBERT running locally via ONNX Runtime Web.
+- Implemented hybrid scoring to defeat tag-splitting and detect sensitive PII leaks.
+
+---
+
+## Publications
+
+### Exploring the PSO-Driven Test Pattern Generation Approach for Hardware Trojan Detection
+- **Authors**: Sandip Chakraborty, Mudumba Sri Varenya, Anindan Mondal, Bibhash Sen
+- **Conference**: 2024 IEEE IATMSI
+- **DOI**: [10.1109/IATMSI60426.2024.10502952](https://doi.org/10.1109/IATMSI60426.2024.10502952)
+
+---
+
+## Achievements & Open Source
+
+- **Open Source**: Merged 2 pull requests into IBM's `qiskit-machine-learning` codebase.
+- **Vulnerability Research**: Discovered 7 CVEs to date. Hunting for new vulnerabilities is part of the exciting research, even if I cannot beat the mythos for now.
+- **Competitive Programming**: Peak rating of 1893 on CodeChef (achieved during the manual coding era, before AI autocomplete took over). Solved 500+ algorithmic challenges.
+- **Security**: Active participant in cybersecurity CTF competitions.
+
+---
+
+## Off the Clock (Extra Activities)
+
+- **Chess Board**: Casual chess player with a peak rating of 989. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
+- **Anime & Pop Culture**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
+- **Gaming**: Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top-tier survival rates and quick reflexes.
+- **Urban Explorer**: Logged 35,000+ steps in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.

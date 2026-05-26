@@ -3,24 +3,104 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Varenya Sri Mudumba</title>
-		<meta name="description" content="Portfolio of Varenya Sri Mudumba, an aspiring Software Development and Security Engineer specializing in Zero-Trust, Cloud Infrastructure, and Software Security." />
+		<title>Varenya Sri Mudumba | Software Development & Security Engineer</title>
+		<meta name="description" content="Professional portfolio of Varenya Sri Mudumba, Graduate Student at Texas A&M University and former Zscaler SDE. Specializing in Software Development, Cloud Security, Zero-Trust Architectures, and applied Cryptography." />
+		<meta name="keywords" content="Varenya Sri Mudumba, mudumba sri varenya, m srivarenya, srivarenya01, mudumbasrivarenya, varenya sri mudumba, varenya sri, sri varenya, varenyasri, Security Engineer, Software Engineer, Texas A&M University, TAMU, Zscaler, Zero-Trust, Cybersecurity, Cloud Infrastructure, HMCP, Post-Quantum Cryptography, LoRA SFT, Continual Learning, DepScan" />
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://srivarenya01.github.io/" />
+		
+		<!-- OpenGraph Meta Tags -->
+		<meta property="og:title" content="Varenya Sri Mudumba | Software Development & Security Engineer" />
+		<meta property="og:description" content="Portfolio of Varenya Sri Mudumba. Graduate Student at Texas A&M, former Zscaler SDE. Specializing in secure software, Zero-Trust, cloud infrastructure, and cryptography." />
+		<meta property="og:type" content="profile" />
+		<meta property="og:url" content="https://srivarenya01.github.io/" />
+		<meta property="og:image" content="https://srivarenya01.github.io/assets/social_card.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="Varenya Sri Mudumba Portfolio" />
+
+		<!-- Twitter Card Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Varenya Sri Mudumba | Software Development & Security Engineer" />
+		<meta name="twitter:description" content="Graduate Student at Texas A&M University and former Zscaler SDE. Specializing in Zero-Trust, Cloud Infrastructure, Software Security, and Secure AI." />
+		<meta name="twitter:image" content="https://srivarenya01.github.io/assets/social_card.png" />
+
+		<!-- JSON-LD Structured Data for SEO -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Varenya Sri Mudumba",
+			"alternateName": [
+				"mudumba sri varenya",
+				"m srivarenya",
+				"srivarenya01",
+				"mudumbasrivarenya",
+				"varenya sri mudumba",
+				"varenya sri",
+				"sri varenya",
+				"varenyasri"
+			],
+			"jobTitle": "Software Development & Security Engineer",
+			"url": "https://srivarenya01.github.io/",
+			"sameAs": [
+				"https://github.com/srivarenya01",
+				"https://www.linkedin.com/in/mudumbasrivarenya/"
+			],
+			"alumniOf": {
+				"@type": "EducationalOrganization",
+				"name": "Texas A&M University",
+				"url": "https://www.tamu.edu/"
+			},
+			"knowsAbout": [
+				"Computer Science",
+				"Cybersecurity",
+				"Zero-Trust Architecture",
+				"Cloud Infrastructure Security",
+				"Post-Quantum Cryptography",
+				"Software Development",
+				"Applied Machine Learning",
+				"Artificial Intelligence",
+				"AI Agents",
+				"Applications of AI and ML",
+				"Network and Software Security",
+			],
+			"worksFor": {
+				"@type": "Organization",
+				"name": "Texas A&M University"
+			}
+		}
+		</script>
+
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cinzel:wght@500;700;800&display=swap" rel="stylesheet" />
 		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 	</head>
 	<body>
+		<canvas id="ambient-canvas"></canvas>
 		<header class="header">
+			<div class="scroll-progress-container">
+				<div class="scroll-progress-bar" id="scroll-bar"></div>
+			</div>
 			<nav class="navbar">
 				<a href="#hero" class="logo">MSV<span class="dot">.</span></a>
 				<ul class="nav-links">
 					<li><a href="#about">About</a></li>
+					<li><a href="#education">Education</a></li>
 					<li><a href="#skills">Skills</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#projects">Projects</a></li>
+					<li class="dropdown-container">
+						<a href="#" class="nav-dropdown-trigger">Resume <i class="fas fa-caret-down"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="resume/security_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-shield-halved"></i> Security Roles</a></li>
+							<li><a href="resume/development_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-code"></i> Dev Roles</a></li>
+							<li><a href="resume/research_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-microscope"></i> Research Roles</a></li>
+						</ul>
+					</li>
 					<li><a href="#contact" class="btn-primary">Contact</a></li>
 				</ul>
 				<div class="hamburger">
@@ -36,83 +116,233 @@
 				<div class="hero-content">
 					<p class="hero-subtitle">Hello, I'm</p>
 					<h1 class="hero-title">Varenya Sri Mudumba</h1>
-					<h2 class="hero-role">Aspiring Software Development & Security Engineer</h2>
-					<p class="hero-description">Graduate Student at Texas A&M University. Building secure, scalable, and resilient software solutions.<br /><strong>Actively seeking Summer 2026 Internships in Security and Software Development.</strong></p>
+					<p class="hero-description">Graduate Student at Texas A&amp;M University. Building secure, scalable, and resilient software solutions.<br /><strong>Actively seeking Summer 2026 Internships in Security and Software Development.</strong></p>
 					<div class="hero-buttons">
 						<a href="#projects" class="btn btn-primary">View Projects</a>
+						<div class="dropdown-container btn-dropdown">
+							<a href="#" class="btn btn-secondary dropdown-trigger">Download Resume <i class="fas fa-caret-down"></i></a>
+							<ul class="dropdown-menu">
+								<li><a href="resume/security_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-shield-halved"></i> Security Roles</a></li>
+								<li><a href="resume/development_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-code"></i> Dev Roles</a></li>
+								<li><a href="resume/research_resume.pdf" download="varenya_sri_mudumba.pdf"><i class="fas fa-microscope"></i> Research Roles</a></li>
+							</ul>
+						</div>
 						<a href="https://github.com/srivarenya01" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
-						<a href="#contact" class="btn btn-secondary">Get in Touch</a>
+						<a href="https://www.linkedin.com/in/mudumbasrivarenya/" target="_blank" class="btn btn-secondary"><i class="fab fa-linkedin"></i> LinkedIn</a>
 					</div>
 				</div>
 				<div class="hero-visual">
 					<div class="glow-sphere"></div>
-				</div>
-			</section>
-
-			<section id="about" class="section">
-				<div class="container">
-					<h2 class="section-title">About Me</h2>
-					<div class="about-content">
-						<p>I am currently pursuing an <strong>Master of Science in Computer Science</strong> at <strong>Texas A&M University</strong> (GPA 4.0/4.0), focusing on Security Engineering, Software Security, and applications of security in AI/ML and Quantum Computing. Previously, I worked as a Software Development Engineer at <strong>Zscaler</strong>, where I optimized cloud provisioning and integrated key security features.</p>
-						<p>My passion lies in the intersection of AI/ML, cybersecurity, and quantum computing. Whether it's architecting quantum-safe applications or building zero-trust systems, I love solving complex problems that require deep technical understanding.</p>
+					<div class="profile-container">
+						<img src="assets/profile.png" alt="Varenya Sri Mudumba Profile picture" class="profile-img" />
 					</div>
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
+			<section id="about" class="section">
+				<div class="container">
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>About Me</h2>
+					<div class="about-content">
+						<p>I'm a <strong>CS graduate student at Texas A&amp;M University</strong> (GPA 4.0/4.0) with hands-on industry experience from <strong>Zscaler</strong>, where I shipped features across cloud infrastructure, test automation, and secure access systems. Before that, I worked on hardware security research at NIT Durgapur, which led to an <strong>IEEE publication</strong>.</p>
+						<p>I'm drawn to hard problems at the boundary of <strong>security and systems</strong>, focusing on post-quantum cryptographic protocols, AI threat surfaces, and secure tools for software supply chains. I've shipped across the full stack: from low-level Rust cryptography to Go static analyzers to ML fine-tuning pipelines on HPC clusters.</p>
+					</div>
+				</div>
+			</section>
+
+			<div class="wave-divider"></div>
+			<section id="education" class="section">
+				<div class="container">
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Education</h2>
+					<div class="edu-cards">
+
+						<!-- Texas A&M -->
+						<div class="edu-card">
+							<div class="edu-card-header">
+								<div class="edu-card-left">
+									<div class="edu-degree">M.S. Computer Science</div>
+									<div class="edu-institution">Texas A&amp;M University</div>
+									<div class="edu-location"><i class="fas fa-map-marker-alt"></i> College Station, TX</div>
+								</div>
+								<div class="edu-card-right">
+									<div class="edu-badge gpa">GPA 4.0 / 4.0</div>
+									<div class="edu-badge dates">Aug 2025 - Present</div>
+								</div>
+							</div>
+							<p class="edu-desc">Working at the intersection of <strong>systems security and machine learning</strong>. I conduct research under <strong>Dr. Marcus Botacin's Lab</strong> focusing on malware analysis, system threat modeling, and streaming algorithms. Concurrently, I collaborate with the <strong>GAIA group</strong> in the Dept. of Soil &amp; Crop Sciences, building transfer learning pipelines on HPRC clusters for precision agriculture.</p>
+							<div class="edu-section-label">Key Coursework</div>
+							<div class="edu-courses">
+								<span>Analysis of Algorithms</span>
+								<span>Software Security</span>
+								<span>Security Engineering</span>
+								<span>Natural Language Processing</span>
+								<span>Intelligent User Interfaces</span>
+								<span>Cybersecurity Risk Management</span>
+							</div>
+						</div>
+
+						<!-- NIT Durgapur -->
+						<div class="edu-card">
+							<div class="edu-card-header">
+								<div class="edu-card-left">
+									<div class="edu-degree">B.Tech, Computer Science &amp; Engineering</div>
+									<div class="edu-institution">National Institute of Technology, Durgapur</div>
+									<div class="edu-location"><i class="fas fa-map-marker-alt"></i> West Bengal, India</div>
+								</div>
+								<div class="edu-card-right">
+									<div class="edu-badge dates">Aug 2020 - May 2024</div>
+								</div>
+							</div>
+							<p class="edu-desc">Research assistant under Prof. Bibhash Sen's lab focusing on Hardware Trojan detection using optimization algorithms. Built a strong foundation in computer science, spanning digital systems, computer architecture, algorithms, and software engineering.</p>
+							<div class="edu-section-label">Key Coursework</div>
+							<div class="edu-courses">
+								<span>Design &amp; Analysis of Algorithms</span>
+								<span>Operating Systems</span>
+								<span>Data Communication &amp; Computer Networks</span>
+								<span>Software Engineering</span>
+								<span>Database Management Systems</span>
+								<span>Embedded Systems</span>
+								<span>Internet of Things</span>
+								<span>Theory of Computation</span>
+								<span>Discrete Mathematics</span>
+								<span>Digital Logic Design</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<div class="wave-divider"></div>
 			<section id="skills" class="section">
 				<div class="container">
-					<h2 class="section-title">Technical Skills</h2>
-					<div class="skills-grid">
-						<div class="skill-category">
-							<h3><i class="fas fa-code"></i> Languages</h3>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Technical Skills</h2>
+					<div class="skills-list">
+						<!-- Languages -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-scroll"></i> Languages
+							</div>
 							<div class="skill-tags">
 								<span>C/C++</span>
 								<span>Python</span>
-								<span>JavaScript</span>
 								<span>Rust</span>
+								<span>Go</span>
+								<span>JavaScript</span>
 								<span>SQL</span>
 								<span>Bash</span>
-								<span>Groovy</span>
 							</div>
 						</div>
-						<div class="skill-category">
-							<h3><i class="fas fa-server"></i> Infra & DevOps</h3>
+
+						<!-- Security & Cryptography -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-key"></i> Security &amp; Cryptography
+							</div>
+							<div class="skill-tags">
+								<span>Post-Quantum Cryptography</span>
+								<span>Malware Analysis</span>
+								<span>Systems &amp; Network Security</span>
+								<span>Secure Coding (SSDLC)</span>
+								<span>Threat Modeling</span>
+								<span>SAST / DAST</span>
+								<span>PKI / TLS</span>
+								<span>Noise Protocol</span>
+							</div>
+						</div>
+
+						<!-- Infrastructure & DevOps -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-anchor"></i> Infrastructure &amp; DevOps
+							</div>
 							<div class="skill-tags">
 								<span>Terraform</span>
 								<span>Ansible</span>
 								<span>Jenkins</span>
+								<span>GitHub Actions</span>
 								<span>AWS</span>
 								<span>GCP</span>
-								<span>Git</span>
+								<span>Docker</span>
 								<span>Linux</span>
 							</div>
 						</div>
-						<div class="skill-category">
-							<h3><i class="fas fa-database"></i> DBs & Frameworks</h3>
+
+						<!-- AI & Machine Learning -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-brain"></i> AI &amp; Machine Learning
+							</div>
+							<div class="skill-tags">
+								<span>PyTorch</span>
+								<span>Large Language Models (LLMs)</span>
+								<span>Machine Learning Algorithms</span>
+								<span>Deep Learning</span>
+								<span>Fine-Tuning (LoRA/PEFT)</span>
+								<span>ONNX / Edge AI</span>
+								<span>Transfer Learning</span>
+								<span>High-Performance Computing (HPC)</span>
+							</div>
+						</div>
+
+						<!-- Databases & Analytics -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-compass"></i> Databases &amp; Analytics
+							</div>
 							<div class="skill-tags">
 								<span>PostgreSQL</span>
-								<span>MongoDB</span>
+								<span>MySQL</span>
+								<span>MongoDB (NoSQL)</span>
+								<span>Redis</span>
 								<span>OpenSearch</span>
 								<span>Kibana</span>
+								<span>Vector Databases</span>
+								<span>Prometheus / Grafana</span>
+							</div>
+						</div>
+
+						<!-- Web & Middleware -->
+						<div class="skills-row">
+							<div class="skills-category-info">
+								<i class="fas fa-route"></i> Web &amp; Middleware
+							</div>
+							<div class="skill-tags">
 								<span>React.js</span>
 								<span>Node.js</span>
 								<span>Express</span>
+								<span>WASM</span>
+								<span>gRPC</span>
+								<span>REST APIs</span>
+								<span>OAuth 2.0 / OIDC</span>
+								<span>WebSockets</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
 			<section id="experience" class="section">
 				<div class="container">
-					<h2 class="section-title">Experience</h2>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Experience</h2>
 					<div class="timeline">
+						<div class="timeline-item">
+							<div class="timeline-date">Aug 2025 - Present</div>
+							<div class="timeline-content">
+								<h3>Graduate Researcher</h3>
+								<h4>Texas A&M University, <strong>Dr. Marcus Botacin's Lab</strong></h4>
+								<p>Researching streaming algorithms for malware analysis to enable efficient and faster YARA rule generation. Testing and evaluating unique, novel, and mixed/hybrid detection algorithms.</p>
+								<div class="tech-stack-mini"><span>Malware Analysis</span> <span>YARA Rule Gen</span> <span>Streaming Algorithms</span> <span>Systems Security</span></div>
+							</div>
+						</div>
+
 						<div class="timeline-item">
 							<div class="timeline-date">Dec 2025 - Present</div>
 							<div class="timeline-content">
 								<h3>Student Research Assistant</h3>
-								<h4>Texas A&M University, Dept. of Soil & Crop Sciences</h4>
-								<p>As a key member of the <strong>GAIA research group</strong>, I am spearheading the application of rigorous computer science principles to agricultural challenges. I am scaling <strong>transfer learning models</strong> to analyze multi spectral soil data, leveraging <strong>High-Performance Computing (HPRC)</strong> clusters to process environmental data. My work directly contributes to optimizing crop yields through precision agriculture, bridging the gap between deep learning research and practical, impactful application.</p>
+								<h4>Texas A&M University, Dept. of Soil &amp; Crop Sciences</h4>
+								<p>Collaborating with the <strong>GAIA research group</strong> on digital agricultural challenges. I scale <strong>transfer learning models</strong> to analyze multi spectral soil data, leveraging <strong>High-Performance Computing (HPRC)</strong> clusters to process environmental data for precision agriculture, bridging the gap between deep learning research and practical, impactful application.</p>
 								<div class="tech-stack-mini"><span>PyTorch</span> <span>HPRC</span> <span>Transfer Learning</span> <span>Python</span></div>
 							</div>
 						</div>
@@ -124,6 +354,7 @@
 								<h4>Zscaler, Hyderabad, India</h4>
 								<p>I played a pivotal role in supporting and enhancing our quality assurance infrastructure, joining a dedicated effort to build a custom <strong>Pytest-based monitoring system</strong> that runs over 900 daily regression tests. My contributions helped ensuring this system remained the backbone of our release cycle, catching regressions hours after code commits rather than days.</p>
 								<p>Beyond testing, I optimized our cloud infrastructure provisioning. By successfully integrating <strong>Terraform</strong> and <strong>Ansible</strong> automation into our team's workflow, I reduced the environment setup time from <strong>18 hours to just 3</strong>, effectively unblocking the development team and accelerating our sprint velocity. I also championed high code quality, conducting rigorous reviews for over 70 PRs to ensure security and maintainability.</p>
+								<div class="tech-stack-mini"><span>Python</span> <span>Pytest</span> <span>Terraform</span> <span>Ansible</span> <span>AWS</span> <span>Jenkins</span></div>
 							</div>
 						</div>
 
@@ -134,6 +365,7 @@
 								<h4>Zscaler, Hyderabad, India</h4>
 								<p>I focused on architectural consolidation and feature integration. I successfully migrated legacy modules into a <strong>unified, modern framework</strong>, which reduced technical debt and maintenance overhead by nearly 50%.</p>
 								<p>I also acted as a bridge between the <strong>Zscaler Private Access (ZPA)</strong> core team and internal application teams, integrating secure access features that were adopted by over 7 distinct internal groups, streamlining secure connectivity across the organization.</p>
+								<div class="tech-stack-mini"><span>Python</span> <span>Groovy</span> <span>ZPA</span> <span>Jenkins</span> <span>REST APIs</span></div>
 							</div>
 						</div>
 
@@ -144,6 +376,7 @@
 								<h4>Zscaler, Bangalore, India</h4>
 								<p>During my internship, I automated the setup of our simulation environments ("sim-boxes") on AWS. I automated the lifecycle management of <strong>EC2 instances</strong> and secure storage via <strong>S3</strong> and <strong>Secrets Manager</strong>, making the process 12 times faster.</p>
 								<p>Believing that "you can't fix what you can't see," I <strong>extended</strong> our monitoring capabilities using <strong>Kibana</strong> and <strong>OpenSearch</strong> to visualize over 1,000 system metrics, helping the team identify performance bottlenecks that were previously invisible.</p>
+								<div class="tech-stack-mini"><span>AWS EC2</span> <span>S3</span> <span>Secrets Manager</span> <span>Kibana</span> <span>OpenSearch</span></div>
 							</div>
 						</div>
 
@@ -152,16 +385,18 @@
 							<div class="timeline-content">
 								<h3>Software Developer Intern</h3>
 								<h4>Athen Tech India, Hyderabad, India</h4>
-								<p>I built a customer-facing <strong>chatbot from scratch</strong> using JavaScript, designed to offload routine queries from the support team. By designing intelligent conversation flows and integrating with backend APIs, the bot successfully resolved over 60% of common customer issues without human intervention, significantly improving response times and user satisfaction.</p>
+								<p>Built a customer-facing chatbot from scratch using JavaScript in an era where there were no AI agent chatbots. Designed state-machine based conversation flows and integrated with backend APIs to offload routine queries from the support team, successfully resolving over 60% of common issues without human intervention.</p>
+								<div class="tech-stack-mini"><span>JavaScript</span> <span>Node.js</span> <span>REST APIs</span></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
 			<section id="publications" class="section">
 				<div class="container">
-					<h2 class="section-title">Publications</h2>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Publications</h2>
 					<div class="project-card" style="border-left: 4px solid var(--accent-color)">
 						<div class="project-header">
 							<h3>Exploring the PSO-Driven Test Pattern Generation Approach for Hardware Trojan Detection</h3>
@@ -174,21 +409,102 @@
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
 			<section id="projects" class="section">
 				<div class="container">
-					<h2 class="section-title">Academic & Research Projects</h2>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Research &amp; Development Projects</h2>
 					<div class="projects-grid">
 						<div class="project-card">
 							<div class="project-header">
-								<h3>SMCP: Secure Model Context Protocol</h3>
+								<h3>HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)</h3>
 								<span class="project-date">Feb 2026</span>
 							</div>
-							<p>Architected a quantum-safe protocol for AI tools using hybrid KEM (Kyber-768 + X25519) and Noise XX handshakes. Implemented DID-based identity and WASM sanitizer to prevent spoofing, MITM, and injection attacks.</p>
+							<p>Architected secure middleware for Model Context Protocol (MCP) servers and clients. Implemented a post-quantum Kyber-768/X25519 hybrid Key Encapsulation Mechanism (KEM) integrated into a Noise XX handshake. Built decentralized identifier (DID) identity verification, a 3-tier inputs sanitizer (detecting homoglyphs, mixed-script, and control characters), rate limiting, and semantic similarity guardrails to prevent injection, spoofing, and MITM attacks.</p>
 							<div class="project-tags">
 								<span>Rust</span>
 								<span>Post-Quantum Crypto</span>
-								<span>WASM</span>
+								<span>Noise Protocol</span>
 								<span>Zero-Trust</span>
+								<span>WASM</span>
+								<span>gRPC</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-lock"></i> Code withheld: Part of double-blind review at conferences, holding repo private</span>
+							</div>
+						</div>
+
+						<div class="project-card">
+							<div class="project-header">
+								<h3>GPL: Graduated Penalty Loss for General Continual Learning</h3>
+								<span class="project-date">May 2026</span>
+							</div>
+							<p>Designed a novel loss formulation mitigating catastrophic forgetting in continual learning. Engineered a phase-aware loss strictness scheduler driven by expected output entropy, combined with a Leitner-box retry-escalation mechanism mimicking physical learning models. Evaluated across TAMU HPRC clusters using synthetic datasets and GLUE benchmarks on BERT/GPT-2.</p>
+							<div class="project-tags">
+								<span>PyTorch</span>
+								<span>HPRC</span>
+								<span>Continual Learning</span>
+								<span>BERT</span>
+								<span>GPT-2</span>
+								<span>Deep Learning</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-lock"></i> Code withheld: Part of double-blind review at conferences, holding repo private</span>
+							</div>
+						</div>
+
+						<div class="project-card">
+							<div class="project-header">
+								<h3>DepScan: Hybrid Dependency Upgrade Analysis Engine</h3>
+								<span class="project-date">Mar 2026</span>
+							</div>
+							<p>Built a hybrid dependency upgrade analysis engine in Go combining native AST structural call-graph extraction with LLM reasoning (Gemini/Gemma) to evaluate upgrade safety. Natively parses Go, Python, and Node.js codebases to map relevant execution paths, filtering cosmetic diffs while flagging structural breaks, signature alterations, exception semantics, and call-chain removals. Features CI/CD integrations for GitHub Action annotations and Slack Block Kit webhooks.</p>
+							<div class="project-tags">
+								<span>Go</span>
+								<span>LLM Reasoning</span>
+								<span>AST Parser</span>
+								<span>Call Graph</span>
+								<span>CI/CD</span>
+								<span>Software Supply Chain</span>
+							</div>
+							<div class="project-card-footer">
+								<a href="https://github.com/srivarenya01/depscan" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a>
+							</div>
+						</div>
+
+						<div class="project-card">
+							<div class="project-header">
+								<h3>LLM Self-Correction SFT (Fine-Tuning Study)</h3>
+								<span class="project-date">Apr 2026</span>
+							</div>
+							<p>Fine-tuned and evaluated self-correction behaviors in LLMs. Executed LoRA SFT on Qwen2.5-Coder-7B-Instruct using CodeContests. Analyzed severe out-of-distribution performance shifts on HumanEval (57.93% vs 50.61% baseline), MBPP (4% vs 0%), and Codeforces (8.7% vs 0%), documenting the fragility of SFT correction patterns.</p>
+							<div class="project-tags">
+								<span>Python</span>
+								<span>LoRA SFT</span>
+								<span>Qwen2.5-Coder</span>
+								<span>CodeContests</span>
+								<span>HumanEval</span>
+								<span>LLM Evaluation</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-file-pdf"></i> arXiv link pending double-blind review</span>
+							</div>
+						</div>
+
+						<div class="project-card">
+							<div class="project-header">
+								<h3>Cyber Risk of Shadow AI (Threat Modeling Study)</h3>
+								<span class="project-date">Apr 2026</span>
+							</div>
+							<p>Conducted an enterprise threat modeling study mapping risks of unauthorized LLM use (Shadow AI) to industry frameworks (NIST CSF 2.0, NIST AI RMF, ISO/IEC 42001, OWASP Top 10 for LLMs). Defined multi-tiered mitigation controls including tenant restrictions, Semantic Prompt Firewalls, and sandboxed local RAG systems.</p>
+							<div class="project-tags">
+								<span>Threat Modeling</span>
+								<span>NIST CSF 2.0</span>
+								<span>AI Risk Management</span>
+								<span>OWASP Top 10</span>
+								<span>Security Compliance</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-file-pdf"></i> arXiv link pending double-blind review</span>
 							</div>
 						</div>
 
@@ -197,67 +513,30 @@
 								<h3>ZTBI: Zero Trust Browser Interface</h3>
 								<span class="project-date">Dec 2025</span>
 							</div>
-							<p>Developed a Chrome extension using DistilBERT/ONNX to detect Prompt Injections and LLM threats. Engineered Hybrid Scoring and Visibility Engine to defeat tag-splitting and PII exfiltration.</p>
+							<p>Developed a secure browser extension running DistilBERT locally via ONNX Runtime Web. Engineered a Hybrid Scoring and Visibility Engine to detect prompt injections and sensitive PII leaks, defeating tag-splitting, indirect injection, and asynchronous exfiltration channels.</p>
 							<div class="project-tags">
 								<span>JavaScript</span>
-								<span>ONNX</span>
+								<span>ONNX Web</span>
 								<span>DistilBERT</span>
 								<span>Chrome Extension API</span>
-								<span>LLM Security</span>
+								<span>Browser Security</span>
+								<span>PII Leakage</span>
+							</div>
+							<div class="project-card-footer">
+								<a href="https://github.com/srivarenya01/ztbi" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a>
 							</div>
 						</div>
 
-						<div class="project-card">
-							<div class="project-header">
-								<h3>Cyber Resilience in Smart Farming (SoK Research)</h3>
-								<span class="project-date">Oct - Nov 2025</span>
-							</div>
-							<p>Conducted a Systematization of Knowledge (SoK) on cyber resilience for digital agriculture. Defined a 4-layer architecture (Physical, Network, Cloud, Application) to map attack surfaces and synthesized a robust Cyber Resilience Lifecycle (Anticipate, Withstand, Detect, Respond, Recover) for Ag-IoT ecosystems.</p>
-							<div class="project-tags">
-								<span>Cybersecurity</span>
-								<span>IoT Resilience</span>
-								<span>Threat Modeling</span>
-								<span>Agriculture 4.0</span>
-								<span>Research</span>
-							</div>
-						</div>
 
-						<div class="project-card">
-							<div class="project-header">
-								<h3>Graph-Based Research Assistant (IUI Project)</h3>
-								<span class="project-date">Oct - Nov 2025</span>
-							</div>
-							<p>Developed an LLM-powered assistant for scientific literature analysis and personalized recommendations. Implemented graph-based mapping of document relationships and a context-aware Natural Language UI for continuous support in PDF summarization and deep context preservation.</p>
-							<div class="project-tags">
-								<span>LLM</span>
-								<span>Natural Language UI</span>
-								<span>React.js</span>
-								<span>Context-Aware AI</span>
-								<span>Graph Algorithms</span>
-							</div>
-						</div>
-
-						<div class="project-card">
-							<div class="project-header">
-								<h3>Hardware Trojan Detection Research</h3>
-								<span class="project-date">Jun 2023 - Mar 2024</span>
-							</div>
-							<p>Conducted extensive literature review to identify state-of-the-art approaches in hardware Trojan detection. Devised and optimized test pattern generation algorithms using Particle Swarm Optimization (PSO) and Genetic Algorithms (GA) for efficient Trojan detection. Collaborated closely with Prof. Bibhash Sen to publish findings.</p>
-							<div class="project-tags">
-								<span>MATLAB</span>
-								<span>Python</span>
-								<span>Digital Circuit Simulation</span>
-								<span>Soft Computing</span>
-							</div>
-						</div>
 					</div>
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
 			<section id="achievements" class="section">
 				<div class="container">
-					<h2 class="section-title">Achievements & Open Source</h2>
-					<div class="skills-grid">
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Achievements &amp; Open Source</h2>
+					<div class="achievements-grid">
 						<div class="skill-category">
 							<h3><i class="fas fa-code-branch"></i> Open Source</h3>
 							<ul>
@@ -265,9 +544,15 @@
 							</ul>
 						</div>
 						<div class="skill-category">
+							<h3><i class="fas fa-bug"></i> Vulnerability Research</h3>
+							<ul>
+								<li style="margin-bottom: 0.5rem">Discovered <strong>7 CVEs</strong> to date. Hunting for new vulnerabilities is part of the exciting research, even if I cannot beat the mythos for now.</li>
+							</ul>
+						</div>
+						<div class="skill-category">
 							<h3><i class="fas fa-trophy"></i> Competitive Programming</h3>
 							<ul>
-								<li style="margin-bottom: 0.5rem">Avid competitive programmer with a peak CodeChef rating of <strong>1893</strong>.</li>
+								<li style="margin-bottom: 0.5rem">Avid competitive programmer with a peak CodeChef rating of <strong>1893</strong> (achieved during the manual coding era, before AI autocomplete took over).</li>
 								<li style="margin-bottom: 0.5rem">Solved <strong>500+</strong> DSA problems across various platforms.</li>
 							</ul>
 						</div>
@@ -281,32 +566,71 @@
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
 			<section id="leadership" class="section">
 				<div class="container">
-					<h2 class="section-title">Leadership</h2>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Leadership &amp; Collaboration</h2>
 					<div class="timeline">
+						<div class="timeline-item">
+							<div class="timeline-date">2024 - Present</div>
+							<div class="timeline-content">
+								<h3>Cross-Cultural Team Collaboration</h3>
+								<h4>Professional &amp; Academic</h4>
+								<p>At Zscaler, I collaborated closely with distributed engineering teams across Bangalore, Hyderabad, and the US, navigating time zones, aligning on technical specs, and shipping features together. I served as the integration point between the ZPA core team and 7 internal application groups, which meant a lot of async communication, clear documentation, and building trust across organizational boundaries.</p>
+								<p>At Texas A&amp;M, I work alongside researchers and faculty from diverse international backgrounds within the GAIA group. Whether it's calibrating expectations on research timelines or aligning on ML experiment designs, I've found that the most productive collaborations happen when everyone feels heard, and I actively try to create that environment.</p>
+							</div>
+						</div>
 						<div class="timeline-item">
 							<div class="timeline-date">Apr 2022 - May 2024</div>
 							<div class="timeline-content">
 								<h3>Class Representative</h3>
-								<h4>NIT Durgapur</h4>
-								<ul>
-									<li>Managed over 190+ students for 4+ semesters.</li>
-									<li>Coordinated academic schedules, assignments, and exam updates by maintaining effective communication between students and professors.</li>
-									<li>Organized and led class discussions, helping peers with queries on course content.</li>
-									<li>Represented the Department of CSE in student body meetings.</li>
-								</ul>
+								<h4>NIT Durgapur, Dept. of CSE</h4>
+								<p>Led a cohort of 190+ students across 4 semesters, coordinating between faculty and students, resolving academic conflicts, and representing the class in departmental meetings. This wasn't just an admin role; it was about being the person people came to when something wasn't working, and figuring out how to fix it together.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
+			<div class="wave-divider"></div>
+			<section id="hobbies" class="section">
+				<div class="container">
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Off the Clock</h2>
+					<div class="achievements-grid">
+						<div class="skill-category">
+							<h3><i class="fas fa-chess-knight"></i> Chess Board</h3>
+							<ul>
+								<li style="margin-bottom: 0.5rem">Casual chess player with a peak rating of <strong>989</strong>. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.</li>
+							</ul>
+						</div>
+						<div class="skill-category">
+							<h3><i class="fas fa-tv"></i> Anime &amp; Pop Culture</h3>
+							<ul>
+								<li style="margin-bottom: 0.5rem">Completed <strong>258+ series</strong>. (Subtle hint: Yes, this website's design elements and Conqueror's Haki effects are a direct tribute to One Piece).</li>
+							</ul>
+						</div>
+						<div class="skill-category">
+							<h3><i class="fas fa-gamepad"></i> Gaming</h3>
+							<ul>
+								<li style="margin-bottom: 0.5rem">Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top tier survival rates and quick reflexes.</li>
+							</ul>
+						</div>
+						<div class="skill-category">
+							<h3><i class="fas fa-hiking"></i> Urban Explorer</h3>
+							<ul>
+								<li style="margin-bottom: 0.5rem">Logged <strong>35,000+ steps</strong> in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="wave-divider"></div>
 			<section id="contact" class="section contact-section">
 				<div class="container">
-					<h2 class="section-title">Get In Touch</h2>
+					<h2 class="section-title"><svg class="straw-hat-icon" viewBox="0 0 100 60" width="36" height="22" xmlns="http://www.w3.org/2000/svg"><path d="M 5,45 C 5,45 25,55 50,55 C 75,55 95,45 95,45 C 95,45 80,38 50,38 C 20,38 5,45 5,45 Z" fill="var(--neon-cyan)" /><path d="M 25,38 C 25,38 35,40 50,40 C 65,40 75,38 75,38 L 73,31 C 73,31 63,33 50,33 C 37,33 27,31 27,31 Z" fill="var(--accent-color)" /><path d="M 27,31 C 27,31 28,12 50,12 C 72,12 73,31 73,31 Z" fill="var(--neon-cyan)" /></svg>Get In Touch</h2>
 					<div class="contact-links">
-						<a href="mailto:srivarenya@tamu.edu" class="contact-btn"> <i class="fas fa-envelope"></i> srivarenya@tamu.edu </a>
+						<a href="mailto:srivarenya@tamu.edu?subject=Handshake%20Initiated%3A%20Let%27s%20wORK%20On%20Something%20Legendary&amp;body=Hi%20Varenya%2C%0A%0AI%20survived%20scrolling%20through%20your%20entire%20portfolio%20%28which%20was%20quite%20a%20journey%21%29%2C%20but%20I%20actually%20really%20liked%20your%20projects%20and%20would%20love%20to%20connect%20and%20chat.%0A%0ALet%27s%20initiate%20the%20handshake%21%0A%0ABest%20regards%2C%0A%5BYour%20Name%5D%0A%5BYour%20Company%2FAffiliation%5D" class="contact-btn"> <i class="fas fa-envelope"></i> srivarenya@tamu.edu </a>
 						<a href="https://www.linkedin.com/in/mudumbasrivarenya/" target="_blank" class="contact-btn"> <i class="fab fa-linkedin"></i> LinkedIn </a>
 						<a href="https://github.com/srivarenya01" target="_blank" class="contact-btn"> <i class="fab fa-github"></i> GitHub </a>
 						<a href="tel:+19793448215" class="contact-btn"> <i class="fas fa-phone"></i> (979) 344 8215 </a>

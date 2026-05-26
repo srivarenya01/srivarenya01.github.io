@@ -1,6 +1,6 @@
-# 🛡️ Mudumba Sri Varenya
+# Mudumba Sri Varenya
 
-### Aspiring Software Development & Security Engineer | MS CS @ Texas A&M
+### Graduate Student in Computer Science | MS CS @ Texas A&M
 
 <div align="center">
 
@@ -13,54 +13,82 @@
 
 ---
 
-## 👨‍� About Me
+## About Me
 
-I am a Graduate Computer Science student at **Texas A&M University** (GPA 4.0/4.0), specializing in **Security Engineering**, **Zero-Trust Architectures**, and **Quantum-Safe Systems**. With a background as an SDE at **Zscaler**, I bridge the gap between building high-performance software and ensuring its resilience against advanced threats.
+I am a Graduate Computer Science student at Texas A&M University (GPA 4.0/4.0), specializing in Systems Security and Machine Learning. I conduct research under **Dr. Marcus Botacin's Lab** focusing on malware analysis, system threat modeling, and streaming algorithms. I also collaborate with the GAIA research group on scaling deep transfer learning pipelines on High-Performance Computing (HPRC) clusters.
 
-**🚀 Currently seeking Summer 2026 internships in Security Engineering & SDE.**
+Currently seeking Summer 2026 internships in Security Engineering & SDE.
 
 ---
 
-## 🔬 Core Focus & Research
+## Core Focus & Research
 
+- **Systems Security & Malware Analysis**: Conducting research under **Dr. Marcus Botacin's Lab** on streaming algorithms for malware analysis and YARA rule generation.
 - **Quantum-Safe Protocols**: Architecting systems resilient to future cryptographic challenges (Kyber, Dilithium).
 - **AI/ML Security**: Detecting prompt injections and securing LLM-backed interfaces.
 - **Cloud Infrastructure**: Automating secure, zero-trust cloud provisioning using Terraform and Ansible.
-- **Digital Agriculture Security**: Researching cyber resilience in IoT-driven smart farming ecosystems.
+- **Systems & ML**: Designing transfer learning pipelines on High-Performance Computing (HPRC) clusters.
 
 ---
 
-## 🌟 Featured Projects
+## Featured Projects
 
-### [SMCP: Secure Model Context Protocol](https://github.com/srivarenya01)
+### [HMCP: Heimdall Model Context Protocol](https://github.com/srivarenya01)
 
-_Post-Quantum Security for AI Tools_
+_Post-Quantum Security for AI Tools (Code withheld: Part of double-blind review at conferences, holding repo private)_
 
-- Architected a quantum-safe protocol using **Kyber-768 + X25519**.
+- Architected a quantum-safe protocol using Kyber-768 + X25519 and a Noise XX handshake.
 - Implemented WASM-based sanitizers and DID identity verification to prevent MITM and injection attacks.
 
-### [ZTBI: Zero Trust Browser Interface](https://github.com/srivarenya01)
+### [GPL: Graduated Penalty Loss](https://github.com/srivarenya01)
+
+_Phase-Aware Continual Learning (Code withheld: Part of double-blind review at conferences, holding repo private)_
+
+- Designed a phase-aware loss strictness scheduler driven by expected output entropy.
+- Implemented a Leitner-box retry-escalation mechanism and evaluated it on BERT/GPT-2 over TAMU HPRC clusters.
+
+### [DepScan: Hybrid Dependency Upgrade Analysis Engine](https://github.com/srivarenya01/depscan)
+
+_AST-Based Call Graph Analysis_
+
+- Built a Go-based parser to extract call graphs and execute execution-path diffs across dependency updates.
+- Integrated LLM reasoning (Gemini/Gemma) to flag structural breaks and exception semantics.
+
+### [ZTBI: Zero Trust Browser Interface](https://github.com/srivarenya01/ztbi)
 
 _ML-Driven Threat Detection_
 
-- Built a Chrome extension using **DistilBERT/ONNX** to identify malicious LLM prompts in real-time.
+- Built a Chrome extension using DistilBERT/ONNX to identify malicious LLM prompts in real-time.
 - Engineered a visibility engine to detect PII exfiltration and tag-splitting attempts.
-
-### [Cyber Resilience in Smart Farming](https://github.com/srivarenya01)
-
-_SoK Research - Texas A&M GAIA Group_
-
-- Defined a 4-layer security architecture for Ag-IoT ecosystems.
-- Synthesized a comprehensive Cyber Resilience Lifecycle for autonomous agricultural systems.
 
 ---
 
-## �️ Technical Arsenal
+## Technical Arsenal
 
-- **Languages**: Rust, C++, Python, JavaScript (ES6+), SQL, Bash, Go.
-- **Cloud/DevOps**: AWS, GCP, Terraform, Ansible, Jenkins, Docker, Kubernetes.
-- **Security**: Post-Quantum Crypto, Zero-Trust, OWASP Top 10, Threat Modeling, Malware Analysis.
-- **Data/AI**: ONNX, PyTorch, OpenSearch, Kibana, PostgreSQL, MongoDB.
+- **Languages**: C/C++, Python, Rust, Go, JavaScript, SQL, Bash.
+- **Security & Cryptography**: Post-Quantum Cryptography, Malware Analysis, Systems & Network Security, Secure Coding (SSDLC), Threat Modeling, SAST / DAST, PKI / TLS, Noise Protocol.
+- **Cloud/DevOps**: Terraform, Ansible, Jenkins, GitHub Actions, AWS, GCP, Docker, Linux.
+- **AI & Deep Learning**: PyTorch, Large Language Models (LLMs), Machine Learning Algorithms, Deep Learning, Fine-Tuning (LoRA/PEFT), ONNX / Edge AI, Transfer Learning, High-Performance Computing (HPC).
+- **Databases & Analytics**: PostgreSQL, MySQL, MongoDB (NoSQL), Redis, OpenSearch, Kibana, Vector Databases, Prometheus / Grafana.
+- **Web & Middleware**: React.js, Node.js, Express, WASM, gRPC, REST APIs, OAuth 2.0 / OIDC, WebSockets.
+
+---
+
+## Key Achievements
+
+- **Vulnerability Research**: Discovered 7 CVEs to date. Hunting for new vulnerabilities is part of the exciting research, even if I cannot beat the mythos for now.
+- **Open Source**: Merged 2 pull requests into IBM's qiskit-machine-learning codebase.
+- **Competitive Programming**: Peak rating of 1893 on CodeChef (achieved during the manual coding era, before AI autocomplete took over). Solved 500+ algorithmic challenges.
+- **Security**: Active participant in cybersecurity CTF competitions.
+
+---
+
+## Off the Clock (Extra Activities)
+
+- **Chess Board**: Casual chess player with a peak rating of 989. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
+- **Anime & Pop Culture**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
+- **Gaming**: Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top-tier survival rates and quick reflexes.
+- **Urban Explorer**: Logged 35,000+ steps in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.
 
 ---
 
