@@ -128,7 +128,7 @@ Chrome extension built to protect against prompt injection and data exfiltration
 ## Achievements & Open Source
 
 - **Open Source**: Merged 2 pull requests into IBM's `qiskit-machine-learning` codebase.
-- **Vulnerability Research**: Discovered 7 CVEs to date. Hunting for new vulnerabilities is part of the exciting research, even if I cannot beat the mythos for now.
+- **Vulnerability Research**: 7 vulnerabilities discovered and disclosed to vendors (representing a mix of individual findings and team research efforts). Hunting for new vulnerabilities is part of the exciting research, even if I cannot beat the mythos for now.
 - **Competitive Programming**: Peak rating of 1893 on CodeChef (achieved during the manual coding era, before AI autocomplete took over). Solved 500+ algorithmic challenges.
 - **Security**: Active participant in cybersecurity CTF competitions.
 
@@ -137,6 +137,6 @@ Chrome extension built to protect against prompt injection and data exfiltration
 ## Off the Clock (Extra Activities)
 
 - **Chess Board**: Casual chess player with a peak rating of 989. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
-- **Anime & Pop Culture**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
+- **Certified Otaku**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
 - **Gaming**: Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top-tier survival rates and quick reflexes.
 - **Urban Explorer**: Logged 35,000+ steps in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.

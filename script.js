@@ -565,15 +565,26 @@ document.addEventListener("DOMContentLoaded", () => {
 					const pt = projectedPoints[i][j];
 					if (pt.opacity <= 0) continue;
 
-					// Base color determined by depth (Z-distance)
+					// Base color determined by depth (Z-distance) and active theme
 					const depthRatio = pt.z / 950;
+					const isLight = document.body.classList.contains("light-theme");
 					let baseColor;
-					if (depthRatio < 0.28) {
-						baseColor = `rgba(192, 57, 43, ${pt.opacity * 0.25})`; // Near: Shanks' Cloak Red
-					} else if (depthRatio < 0.68) {
-						baseColor = `rgba(212, 160, 23, ${pt.opacity * 0.18})`; // Mid: Treasure Gold
+					if (isLight) {
+						if (depthRatio < 0.28) {
+							baseColor = `rgba(40, 30, 24, ${pt.opacity * 0.14})`; // Near: Oil Charcoal Ink
+						} else if (depthRatio < 0.68) {
+							baseColor = `rgba(90, 70, 58, ${pt.opacity * 0.10})`; // Mid: Sepia/Oak Brown
+						} else {
+							baseColor = `rgba(184, 141, 62, ${pt.opacity * 0.08})`; // Far: Vintage Gold-Tan
+						}
 					} else {
-						baseColor = `rgba(38, 166, 154, ${pt.opacity * 0.12})`; // Far: Ocean Blue-Teal
+						if (depthRatio < 0.28) {
+							baseColor = `rgba(192, 57, 43, ${pt.opacity * 0.25})`; // Near: Shanks' Cloak Red
+						} else if (depthRatio < 0.68) {
+							baseColor = `rgba(212, 160, 23, ${pt.opacity * 0.18})`; // Mid: Treasure Gold
+						} else {
+							baseColor = `rgba(38, 166, 154, ${pt.opacity * 0.12})`; // Far: Ocean Blue-Teal
+						}
 					}
 
 					// Connect horizontally
@@ -617,5 +628,77 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 
 		animate();
+	}
+
+	// --- Theme Toggle (Dark Mode as Default, Wanted Poster as Light Mode) ---
+	const themeToggle = document.getElementById("theme-toggle");
+	if (themeToggle) {
+		const icon = themeToggle.querySelector("i");
+		
+		// Check for stored preference
+		const currentTheme = localStorage.getItem("theme");
+		if (currentTheme === "light") {
+			document.body.classList.add("light-theme");
+			icon.className = "fas fa-moon"; // Moon icon in light mode
+		} else {
+			icon.className = "fas fa-sun"; // Sun icon in dark mode
+		}
+		
+		themeToggle.addEventListener("click", (e) => {
+			const isCurrentlyLight = document.body.classList.contains("light-theme");
+			const targetThemeLight = !isCurrentlyLight;
+			
+			// Get button or click position
+			const rect = themeToggle.getBoundingClientRect();
+			const x = e.clientX || (rect.left + rect.width / 2);
+			const y = e.clientY || (rect.top + rect.height / 2);
+			
+			// Create transition overlay
+			const overlay = document.createElement("div");
+			overlay.className = "theme-transition-overlay";
+			overlay.style.left = `calc(${x}px - 125vmax)`;
+			overlay.style.top = `calc(${y}px - 125vmax)`;
+			
+			if (targetThemeLight) {
+				overlay.classList.add("sunrise-transition");
+			} else {
+				overlay.classList.add("sunset-transition");
+			}
+			
+			document.body.appendChild(overlay);
+			
+			// Add transition helper class to body for slow color blending
+			document.body.classList.add("theme-toggling");
+			
+			// Force reflow
+			overlay.offsetWidth;
+			
+			// Activate expansion
+			overlay.classList.add("active");
+			
+			// Switch theme variables when screen is fully covered (600ms)
+			setTimeout(() => {
+				if (targetThemeLight) {
+					document.body.classList.add("light-theme");
+					icon.className = "fas fa-moon"; // Moon icon in light mode
+					localStorage.setItem("theme", "light");
+				} else {
+					document.body.classList.remove("light-theme");
+					icon.className = "fas fa-sun"; // Sun icon in dark mode
+					localStorage.setItem("theme", "dark");
+				}
+			}, 600);
+			
+			// Start fading out overlay
+			setTimeout(() => {
+				overlay.classList.add("fade-out");
+			}, 1000);
+			
+			// Remove overlay and clean up toggling class
+			setTimeout(() => {
+				overlay.remove();
+				document.body.classList.remove("theme-toggling");
+			}, 2000);
+		});
 	}
 });
