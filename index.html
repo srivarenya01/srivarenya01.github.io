@@ -25,50 +25,110 @@
 		<meta name="twitter:description" content="Graduate Student at Texas A&M University and former Zscaler SDE. Specializing in Zero-Trust, Cloud Infrastructure, Software Security, and Secure AI." />
 		<meta name="twitter:image" content="https://srivarenya01.github.io/assets/social_card.png" />
 
-		<!-- JSON-LD Structured Data for SEO -->
+		<!-- JSON-LD Structured Data for SEO (ProfilePage + Person) -->
 		<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "Person",
-			"name": "Varenya Sri Mudumba",
-			"alternateName": [
-				"mudumba sri varenya",
-				"m srivarenya",
-				"srivarenya01",
-				"mudumbasrivarenya",
-				"varenya sri mudumba",
-				"varenya sri",
-				"sri varenya",
-				"varenyasri"
-			],
-			"jobTitle": "Software Development & Security Engineer",
-			"url": "https://srivarenya01.github.io/",
-			"sameAs": [
-				"https://github.com/srivarenya01",
-				"https://www.linkedin.com/in/mudumbasrivarenya/"
-			],
-			"alumniOf": {
-				"@type": "EducationalOrganization",
-				"name": "Texas A&M University",
-				"url": "https://www.tamu.edu/"
-			},
-			"knowsAbout": [
-				"Computer Science",
-				"Cybersecurity",
-				"Zero-Trust Architecture",
-				"Cloud Infrastructure Security",
-				"Post-Quantum Cryptography",
-				"Software Development",
-				"Applied Machine Learning",
-				"Artificial Intelligence",
-				"AI Agents",
-				"Applications of AI and ML",
-				"Network and Software Security"
-			],
-			"worksFor": {
-				"@type": "Organization",
-				"name": "Texas A&M University"
+			"@type": "ProfilePage",
+			"dateModified": "2026-06-26",
+			"mainEntity": {
+				"@type": "Person",
+				"@id": "https://srivarenya01.github.io/#person",
+				"name": "Varenya Sri Mudumba",
+				"alternateName": [
+					"mudumba sri varenya",
+					"m srivarenya",
+					"srivarenya01",
+					"mudumbasrivarenya",
+					"varenya sri mudumba",
+					"varenya sri",
+					"sri varenya",
+					"varenyasri"
+				],
+				"jobTitle": "Software Development & Security Engineer",
+				"description": "CS graduate student at Texas A&M University (GPA 4.0/4.0) and former Zscaler SDE, working at the boundary of security and systems: post-quantum cryptography, malware analysis, AI threat surfaces, and secure software supply chains.",
+				"url": "https://srivarenya01.github.io/",
+				"image": "https://srivarenya01.github.io/assets/profile.png",
+				"email": "mailto:srivarenya@tamu.edu",
+				"telephone": "+1-979-344-8215",
+				"sameAs": [
+					"https://github.com/srivarenya01",
+					"https://www.linkedin.com/in/mudumbasrivarenya/",
+					"https://huggingface.co/srivarenya",
+					"https://scholar.google.com/citations?user=P_OaLhoAAAAJ",
+					"https://orcid.org/0009-0005-0117-3776",
+					"https://www.semanticscholar.org/author/2298073877",
+					"https://www.researchgate.net/profile/Varenya-Sri-Mudumba",
+					"https://www.codechef.com/users/sri_varenya"
+				],
+				"alumniOf": [
+					{
+						"@type": "CollegeOrUniversity",
+						"name": "Texas A&M University",
+						"url": "https://www.tamu.edu/"
+					},
+					{
+						"@type": "CollegeOrUniversity",
+						"name": "National Institute of Technology, Durgapur",
+						"url": "https://nitdgp.ac.in/"
+					}
+				],
+				"worksFor": {
+					"@type": "CollegeOrUniversity",
+					"name": "Texas A&M University",
+					"url": "https://www.tamu.edu/"
+				},
+				"homeLocation": {
+					"@type": "Place",
+					"address": {
+						"@type": "PostalAddress",
+						"addressLocality": "College Station",
+						"addressRegion": "TX",
+						"postalCode": "77840",
+						"addressCountry": "US"
+					}
+				},
+				"knowsLanguage": ["English"],
+				"knowsAbout": [
+					"Computer Science",
+					"Cybersecurity",
+					"Zero-Trust Architecture",
+					"Cloud Infrastructure Security",
+					"Post-Quantum Cryptography",
+					"Malware Analysis",
+					"Hardware Trojan Detection",
+					"Noise Protocol",
+					"LLM Security",
+					"Continual Learning",
+					"Software Development",
+					"Applied Machine Learning",
+					"Artificial Intelligence",
+					"AI Agents",
+					"Network and Software Security"
+				]
 			}
+		}
+		</script>
+
+		<!-- JSON-LD: Publication -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ScholarlyArticle",
+			"name": "Exploring the PSO-Driven Test Pattern Generation Approach for Hardware Trojan Detection",
+			"author": [
+				{ "@type": "Person", "name": "Sandip Chakraborty" },
+				{ "@type": "Person", "name": "Mudumba Sri Varenya", "sameAs": "https://srivarenya01.github.io/" },
+				{ "@type": "Person", "name": "Anindan Mondal" },
+				{ "@type": "Person", "name": "Bibhash Sen" }
+			],
+			"datePublished": "2024-03",
+			"isPartOf": {
+				"@type": "PublicationEvent",
+				"name": "2024 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)"
+			},
+			"identifier": "https://doi.org/10.1109/IATMSI60426.2024.10502952",
+			"url": "https://doi.org/10.1109/IATMSI60426.2024.10502952"
 		}
 		</script>
 
@@ -417,27 +477,44 @@
 					<div class="projects-grid">
 						<div class="project-card">
 							<div class="project-header">
-								<h3>HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)</h3>
-								<span class="project-date">Feb 2026</span>
+								<h3>Python Code-Generation SLM</h3>
+								<span class="project-date">Jun 2026</span>
 							</div>
-							<p>Architected secure middleware for Model Context Protocol (MCP) servers and clients. Implemented a post-quantum Kyber-768/X25519 hybrid Key Encapsulation Mechanism (KEM) integrated into a Noise XX handshake. Built decentralized identifier (DID) identity verification, a 3-tier inputs sanitizer (detecting homoglyphs, mixed-script, and control characters), rate limiting, and semantic similarity guardrails to prevent injection, spoofing, and MITM attacks.</p>
+							<p>An end-to-end Python code-generation model fine-tuned from Qwen2.5-Coder-1.5B across three stages. DoRA SFT on a curated CPython/Flask/Requests corpus reached 70.7% HumanEval (+8.2 over base on spec-to-code), a GRPO (RLVR) pass with an execution-grounded reward lifted MBPP to 72.5%, and a hybrid RAG layer (Qwen3 embeddings + LanceDB dense/BM25) injects exact API signatures to fix the model's weakest axis.</p>
 							<div class="project-tags">
-								<span>Rust</span>
-								<span>Post-Quantum Crypto</span>
-								<span>Noise Protocol</span>
-								<span>Zero-Trust</span>
-								<span>WASM</span>
-								<span>gRPC</span>
+								<span>PyTorch</span>
+								<span>Qwen2.5-Coder</span>
+								<span>DoRA / PEFT</span>
+								<span>GRPO (RLVR)</span>
+								<span>Hybrid RAG</span>
+								<span>Code Generation</span>
 							</div>
 							<div class="project-card-footer">
-								<span class="project-notice"><i class="fas fa-lock"></i> Code withheld: Part of double-blind review at conferences, holding repo private</span>
+								<a href="https://huggingface.co/srivarenya/MoM-python-slm-grpo" target="_blank" rel="noopener" class="project-link-btn"><i class="fas fa-cube"></i> View on Hugging Face</a>
 							</div>
 						</div>
-
+						<div class="project-card">
+							<div class="project-header">
+								<h3>Poisoned Pipelines (Agentic AI Threat Model)</h3>
+								<span class="project-date">May 2026</span>
+							</div>
+							<p>A threat taxonomy and architectural attack model for agentic AI coding tools (Claude Code, Cursor, Copilot Workspace) and the Model Context Protocol (MCP) ecosystem. Defines seven threat classes unified by a "trust laundering" meta-concept, formalizes novel primitives including a JSON Encoding Layer Bypass (JELB) and an Agentic CLI Relay, and maps 17 disclosed CVEs onto the taxonomy with STRIDE analysis and a layered defense framework.</p>
+							<div class="project-tags">
+								<span>Threat Modeling</span>
+								<span>Agentic AI Security</span>
+								<span>MCP</span>
+								<span>STRIDE</span>
+								<span>CVE Analysis</span>
+								<span>Supply Chain Security</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-file-pdf"></i> Preprint pending double-blind review</span>
+							</div>
+						</div>
 						<div class="project-card">
 							<div class="project-header">
 								<h3>GPL: Graduated Penalty Loss for General Continual Learning</h3>
-								<span class="project-date">May 2026</span>
+								<span class="project-date">Apr - May 2026</span>
 							</div>
 							<p>Designed a novel loss formulation mitigating catastrophic forgetting in continual learning. Engineered a phase-aware loss strictness scheduler driven by expected output entropy, combined with a Leitner-box retry-escalation mechanism mimicking physical learning models. Evaluated across TAMU HPRC clusters using synthetic datasets and GLUE benchmarks on BERT/GPT-2.</p>
 							<div class="project-tags">
@@ -452,30 +529,45 @@
 								<span class="project-notice"><i class="fas fa-lock"></i> Code withheld: Part of double-blind review at conferences, holding repo private</span>
 							</div>
 						</div>
-
 						<div class="project-card">
 							<div class="project-header">
-								<h3>DepScan: Hybrid Dependency Upgrade Analysis Engine</h3>
-								<span class="project-date">Mar 2026</span>
+								<h3>HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)</h3>
+								<span class="project-date">Feb - Apr 2026</span>
 							</div>
-							<p>Built a hybrid dependency upgrade analysis engine in Go combining native AST structural call-graph extraction with LLM reasoning (Gemini/Gemma) to evaluate upgrade safety. Natively parses Go, Python, and Node.js codebases to map relevant execution paths, filtering cosmetic diffs while flagging structural breaks, signature alterations, exception semantics, and call-chain removals. Features CI/CD integrations for GitHub Action annotations and Slack Block Kit webhooks.</p>
+							<p>Architected secure middleware for Model Context Protocol (MCP) servers and clients. Implemented a post-quantum Kyber-768/X25519 hybrid Key Encapsulation Mechanism (KEM) integrated into a Noise XX handshake. Built decentralized identifier (DID) identity verification, a 3-tier inputs sanitizer (detecting homoglyphs, mixed-script, and control characters), rate limiting, and semantic similarity guardrails to prevent injection, spoofing, and MITM attacks.</p>
 							<div class="project-tags">
-								<span>Go</span>
-								<span>LLM Reasoning</span>
-								<span>AST Parser</span>
-								<span>Call Graph</span>
-								<span>CI/CD</span>
-								<span>Software Supply Chain</span>
+								<span>Rust</span>
+								<span>Post-Quantum Crypto</span>
+								<span>Noise Protocol</span>
+								<span>Zero-Trust</span>
+								<span>WASM</span>
+								<span>gRPC</span>
 							</div>
 							<div class="project-card-footer">
-								<a href="https://github.com/srivarenya01/depscan" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a>
+								<span class="project-notice"><i class="fas fa-lock"></i> Code withheld: Part of double-blind review at conferences, holding repo private</span>
 							</div>
 						</div>
-
+						<div class="project-card">
+							<div class="project-header">
+								<h3>Cyber Risk of Shadow AI (Threat Modeling Study)</h3>
+								<span class="project-date">Feb - Apr 2026</span>
+							</div>
+							<p>Conducted an enterprise threat modeling study mapping risks of unauthorized LLM use (Shadow AI) to industry frameworks (NIST CSF 2.0, NIST AI RMF, ISO/IEC 42001, OWASP Top 10 for LLMs). Defined multi-tiered mitigation controls including tenant restrictions, Semantic Prompt Firewalls, and sandboxed local RAG systems.</p>
+							<div class="project-tags">
+								<span>Threat Modeling</span>
+								<span>NIST CSF 2.0</span>
+								<span>AI Risk Management</span>
+								<span>OWASP Top 10</span>
+								<span>Security Compliance</span>
+							</div>
+							<div class="project-card-footer">
+								<span class="project-notice"><i class="fas fa-file-pdf"></i> arXiv link pending double-blind review</span>
+							</div>
+						</div>
 						<div class="project-card">
 							<div class="project-header">
 								<h3>LLM Self-Correction SFT (Fine-Tuning Study)</h3>
-								<span class="project-date">Apr 2026</span>
+								<span class="project-date">Feb - Apr 2026</span>
 							</div>
 							<p>Fine-tuned and evaluated self-correction behaviors in LLMs. Executed LoRA SFT on Qwen2.5-Coder-7B-Instruct using CodeContests. Analyzed severe out-of-distribution performance shifts on HumanEval (57.93% vs 50.61% baseline), MBPP (4% vs 0%), and Codeforces (8.7% vs 0%), documenting the fragility of SFT correction patterns.</p>
 							<div class="project-tags">
@@ -490,29 +582,28 @@
 								<span class="project-notice"><i class="fas fa-file-pdf"></i> arXiv link pending double-blind review</span>
 							</div>
 						</div>
-
 						<div class="project-card">
 							<div class="project-header">
-								<h3>Cyber Risk of Shadow AI (Threat Modeling Study)</h3>
-								<span class="project-date">Apr 2026</span>
+								<h3>DepScan: Hybrid Dependency Upgrade Analysis Engine</h3>
+								<span class="project-date">Feb - Mar 2026</span>
 							</div>
-							<p>Conducted an enterprise threat modeling study mapping risks of unauthorized LLM use (Shadow AI) to industry frameworks (NIST CSF 2.0, NIST AI RMF, ISO/IEC 42001, OWASP Top 10 for LLMs). Defined multi-tiered mitigation controls including tenant restrictions, Semantic Prompt Firewalls, and sandboxed local RAG systems.</p>
+							<p>Built a hybrid dependency upgrade analysis engine in Go combining native AST structural call-graph extraction with LLM reasoning (Gemini/Gemma) to evaluate upgrade safety. Natively parses Go, Python, and Node.js codebases to map relevant execution paths, filtering cosmetic diffs while flagging structural breaks, signature alterations, exception semantics, and call-chain removals. Features CI/CD integrations for GitHub Action annotations and Slack Block Kit webhooks.</p>
 							<div class="project-tags">
-								<span>Threat Modeling</span>
-								<span>NIST CSF 2.0</span>
-								<span>AI Risk Management</span>
-								<span>OWASP Top 10</span>
-								<span>Security Compliance</span>
+								<span>Go</span>
+								<span>LLM Reasoning</span>
+								<span>AST Parser</span>
+								<span>Call Graph</span>
+								<span>CI/CD</span>
+								<span>Software Supply Chain</span>
 							</div>
 							<div class="project-card-footer">
-								<span class="project-notice"><i class="fas fa-file-pdf"></i> arXiv link pending double-blind review</span>
+								<a href="https://github.com/srivarenya01/depscan" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a>
 							</div>
 						</div>
-
 						<div class="project-card">
 							<div class="project-header">
 								<h3>ZTBI: Zero Trust Browser Interface</h3>
-								<span class="project-date">Dec 2025</span>
+								<span class="project-date">Nov - Dec 2025</span>
 							</div>
 							<p>Developed a secure browser extension running DistilBERT locally via ONNX Runtime Web. Engineered a Hybrid Scoring and Visibility Engine to detect prompt injections and sensitive PII leaks, defeating tag-splitting, indirect injection, and asynchronous exfiltration channels.</p>
 							<div class="project-tags">
@@ -527,8 +618,6 @@
 								<a href="https://github.com/srivarenya01/ztbi" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a>
 							</div>
 						</div>
-
-
 					</div>
 				</div>
 			</section>
@@ -643,6 +732,16 @@
 
 		<footer>
 			<div class="container">
+				<nav class="footer-sitemap" aria-label="Section pages" style="display: flex; flex-wrap: wrap; gap: 0.6rem 1.25rem; justify-content: center; margin-bottom: 1rem; font-size: 0.9rem">
+					<a href="/about/">About</a>
+					<a href="/education/">Education</a>
+					<a href="/skills/">Skills</a>
+					<a href="/experience/">Experience</a>
+					<a href="/publications/">Publications</a>
+					<a href="/projects/">Projects</a>
+					<a href="/achievements/">Achievements</a>
+					<a href="/contact/">Contact</a>
+				</nav>
 				<p>&copy; 2026 Varenya Sri Mudumba. All rights reserved.</p>
 			</div>
 		</footer>

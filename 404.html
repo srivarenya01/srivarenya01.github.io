@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Page Not Found - Varenya Sri Mudumba</title>
+		<meta name="robots" content="noindex, follow" />
+		<link rel="canonical" href="https://srivarenya01.github.io/" />
+		<meta http-equiv="refresh" content="3; url=/" />
+		<link rel="stylesheet" href="/styles.css" />
+		<script>
+			// Preserve deep links that used the old /resume/ path or section hashes.
+			(function () {
+				var p = window.location.pathname.replace(/\/+$/, "");
+				var seg = p.split("/").filter(Boolean).pop() || "";
+				var sections = ["about", "education", "skills", "experience", "publications", "projects", "achievements", "contact", "leadership", "hobbies"];
+				if (sections.indexOf(seg) !== -1) {
+					window.location.replace("/#" + seg);
+				} else {
+					window.location.replace("/");
+				}
+			})();
+		</script>
+	</head>
+	<body>
+		<main style="min-height: 60vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem">
+			<div>
+				<h1>404 - Page Not Found</h1>
+				<p>Redirecting you to the portfolio home&hellip;</p>
+				<p><a class="btn btn-primary" href="/">Go to Varenya Sri Mudumba's portfolio &rarr;</a></p>
+			</div>
+		</main>
+	</body>
+</html>

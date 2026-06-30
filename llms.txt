@@ -2,11 +2,31 @@
 
 Graduate Student in Computer Science at Texas A&M University (GPA 4.0/4.0) specializing in Zero-Trust, Cloud Infrastructure, Software Security, and Secure AI.
 
+- Website: https://srivarenya01.github.io/
 - Email: srivarenya@tamu.edu
 - Phone: +1 (979) 344-8215
 - Location: College Station, TX 77840
 - GitHub: [srivarenya01](https://github.com/srivarenya01)
 - LinkedIn: [mudumbasrivarenya](https://www.linkedin.com/in/mudumbasrivarenya/)
+- HuggingFace: [srivarenya](https://huggingface.co/srivarenya)
+- Google Scholar: [P_OaLhoAAAAJ](https://scholar.google.com/citations?user=P_OaLhoAAAAJ)
+- ORCID: [0009-0005-0117-3776](https://orcid.org/0009-0005-0117-3776)
+- Semantic Scholar: [2298073877](https://www.semanticscholar.org/author/2298073877)
+- ResearchGate: [Varenya-Sri-Mudumba](https://www.researchgate.net/profile/Varenya-Sri-Mudumba)
+- CodeChef: [sri_varenya](https://www.codechef.com/users/sri_varenya)
+
+Also known as: Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba, varenyasri.
+
+## Pages
+
+- [About](https://srivarenya01.github.io/about/)
+- [Education](https://srivarenya01.github.io/education/)
+- [Skills](https://srivarenya01.github.io/skills/)
+- [Experience](https://srivarenya01.github.io/experience/)
+- [Publications](https://srivarenya01.github.io/publications/)
+- [Projects](https://srivarenya01.github.io/projects/)
+- [Achievements](https://srivarenya01.github.io/achievements/)
+- [Contact](https://srivarenya01.github.io/contact/)
 
 ---
 
@@ -77,6 +97,14 @@ Graduate Student in Computer Science at Texas A&M University (GPA 4.0/4.0) speci
 ---
 
 ## Key Projects
+
+### Python Code-Generation SLM
+*Models and dataset published on Hugging Face: https://huggingface.co/srivarenya*
+A specialized single-turn Python code generator fine-tuned from Qwen2.5-Coder-1.5B, evolved across three stages.
+- SFT: DoRA (r=64) on a curated corpus from the complete CPython docs plus Flask/Requests source, issue-to-fix pairs, and CVE-to-patch pairs; HumanEval 70.7% pass@1 and +8.2 over base on held-out spec-to-code tasks.
+- GRPO (RLVR): execution-grounded reward over 12,816 assert-verified problems; MBPP 69.6% -> 72.5% and domain problem-solving +5.4, trading about 3 points of completion-format HumanEval (the spec-driven keeper).
+- RAG: hybrid retrieval (Qwen3 embeddings + LanceDB dense/BM25 with RRF fusion) injects exact API signatures and docs at generation time to fix the model's weakest axis (signature recall ~0.30).
+- How it evolved: SFT teaches the domain, GRPO sharpens spec-driven execution, RAG supplies long-tail API facts the model should not have to memorize.
 
 ### HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)
 *Code withheld: Submitted for double-blind review at a major conference. Repository private during review.*

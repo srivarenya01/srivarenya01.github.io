@@ -14,11 +14,12 @@
 ---
 
 ## About Me
-## About Me
 
 I am a Graduate Computer Science student at Texas A&M University (GPA 4.0/4.0), specializing in Systems Security and Machine Learning. I conduct research under **Dr. Marcus Botacin's Lab** focusing on malware analysis, system threat modeling, and streaming algorithms. I also collaborate with the GAIA research group on scaling deep transfer learning pipelines on High-Performance Computing (HPRC) clusters.
 
 Currently seeking Summer 2026 internships in Research, Security & SDE.
+
+> **Live portfolio:** https://srivarenya01.github.io/ &nbsp;·&nbsp; also known as Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba.
 
 ---
 
@@ -33,6 +34,14 @@ Currently seeking Summer 2026 internships in Research, Security & SDE.
 ---
 
 ## Featured Projects
+
+### [Python Code-Generation SLM](https://huggingface.co/srivarenya/MoM-python-slm-grpo)
+
+_Specialized single-turn Python code generator fine-tuned from Qwen2.5-Coder-1.5B_
+
+- **SFT** (DoRA r=64) on a curated CPython/Flask/Requests corpus with issue→fix and CVE→patch pairs; HumanEval 70.7% pass@1, +8.2 over base on held-out spec-to-code.
+- **GRPO (RLVR)** with an execution-grounded reward over 12,816 assert-verified problems; MBPP 69.6% → 72.5% and problem-solving +5.4, trading ~3 points of completion-format HumanEval.
+- **RAG**: hybrid retrieval (Qwen3 embeddings + LanceDB dense/BM25, RRF fusion) injects exact API signatures at generation time to fix signature recall (~0.30), the one axis weights couldn't.
 
 ### [HMCP: Heimdall Model Context Protocol](https://github.com/srivarenya01)
 

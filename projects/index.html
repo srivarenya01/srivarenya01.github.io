@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projects - Varenya Sri Mudumba | HMCP, DepScan, ZTBI, GPL</title>
+		<meta name="description" content="Security, systems, and AI projects by Varenya Sri Mudumba: HMCP post-quantum MCP middleware, DepScan dependency-upgrade analysis engine, ZTBI zero-trust browser interface, GPL continual-learning loss, and LLM self-correction studies." />
+		<meta name="keywords" content="Varenya Sri Mudumba projects, HMCP, DepScan, ZTBI, GPL continual learning, post-quantum cryptography, MCP security, prompt injection" />
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://srivarenya01.github.io/projects/" />
+		<meta property="og:title" content="Projects - Varenya Sri Mudumba" />
+		<meta property="og:description" content="HMCP, DepScan, ZTBI, GPL, and LLM security/ML research projects." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://srivarenya01.github.io/projects/" />
+		<meta property="og:image" content="https://srivarenya01.github.io/assets/social_card.png" />
+		<link rel="stylesheet" href="/styles.css" />
+	</head>
+	<body>
+		<header style="padding: 1.25rem 1.5rem; border-bottom: 1px solid rgba(255, 255, 255, 0.08)">
+			<a href="/" style="text-decoration: none; font-weight: 600">&larr; Varenya Sri Mudumba - Full Portfolio</a>
+		</header>
+		<main>
+			<section class="section">
+				<div class="container">
+					<h1 class="section-title">Research &amp; Development Projects</h1>
+					<div class="projects-grid">
+						<div class="project-card">
+							<div class="project-header"><h3>Python Code-Generation SLM</h3><span class="project-date">Jun 2026</span></div>
+							<p>An end-to-end Python code-generation model fine-tuned from Qwen2.5-Coder-1.5B across three stages. DoRA SFT on a curated CPython/Flask/Requests corpus reached 70.7% HumanEval (+8.2 over base on spec-to-code), a GRPO (RLVR) pass with an execution-grounded reward lifted MBPP to 72.5%, and a hybrid RAG layer (Qwen3 embeddings + LanceDB dense/BM25) injects exact API signatures to fix the model's weakest axis.</p>
+							<div class="project-tags"><span>PyTorch</span><span>Qwen2.5-Coder</span><span>DoRA / PEFT</span><span>GRPO (RLVR)</span><span>Hybrid RAG</span><span>Code Generation</span></div>
+							<div class="project-card-footer"><a href="https://huggingface.co/srivarenya/MoM-python-slm-grpo" target="_blank" rel="noopener" class="project-link-btn"><i class="fas fa-cube"></i> View on Hugging Face</a></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>Poisoned Pipelines (Agentic AI Threat Model)</h3><span class="project-date">May 2026</span></div>
+							<p>A threat taxonomy and architectural attack model for agentic AI coding tools (Claude Code, Cursor, Copilot Workspace) and the Model Context Protocol (MCP) ecosystem. Defines seven threat classes unified by a "trust laundering" meta-concept, formalizes novel primitives including a JSON Encoding Layer Bypass (JELB) and an Agentic CLI Relay, and maps 17 disclosed CVEs onto the taxonomy with STRIDE analysis and a layered defense framework.</p>
+							<div class="project-tags"><span>Threat Modeling</span><span>Agentic AI Security</span><span>MCP</span><span>STRIDE</span><span>CVE Analysis</span><span>Supply Chain Security</span></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>GPL: Graduated Penalty Loss for General Continual Learning</h3><span class="project-date">Apr - May 2026</span></div>
+							<p>Designed a novel loss formulation mitigating catastrophic forgetting in continual learning. Engineered a phase-aware loss strictness scheduler driven by expected output entropy, combined with a Leitner-box retry-escalation mechanism. Evaluated across TAMU HPRC clusters using synthetic datasets and GLUE benchmarks on BERT/GPT-2.</p>
+							<div class="project-tags"><span>PyTorch</span><span>HPRC</span><span>Continual Learning</span><span>BERT</span><span>GPT-2</span><span>Deep Learning</span></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>HMCP: Heimdall Model Context Protocol (Secure MCP Middleware)</h3><span class="project-date">Feb - Apr 2026</span></div>
+							<p>Architected secure middleware for Model Context Protocol (MCP) servers and clients. Implemented a post-quantum Kyber-768/X25519 hybrid Key Encapsulation Mechanism (KEM) integrated into a Noise XX handshake. Built decentralized identifier (DID) identity verification, a 3-tier inputs sanitizer (homoglyphs, mixed-script, control characters), rate limiting, and semantic similarity guardrails to prevent injection, spoofing, and MITM attacks.</p>
+							<div class="project-tags"><span>Rust</span><span>Post-Quantum Crypto</span><span>Noise Protocol</span><span>Zero-Trust</span><span>WASM</span><span>gRPC</span></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>Cyber Risk of Shadow AI (Threat Modeling Study)</h3><span class="project-date">Feb - Apr 2026</span></div>
+							<p>Conducted an enterprise threat modeling study mapping risks of unauthorized LLM use (Shadow AI) to industry frameworks (NIST CSF 2.0, NIST AI RMF, ISO/IEC 42001, OWASP Top 10 for LLMs). Defined multi-tiered mitigation controls including tenant restrictions, Semantic Prompt Firewalls, and sandboxed local RAG systems.</p>
+							<div class="project-tags"><span>Threat Modeling</span><span>NIST CSF 2.0</span><span>AI Risk Management</span><span>OWASP Top 10</span><span>Security Compliance</span></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>LLM Self-Correction SFT (Fine-Tuning Study)</h3><span class="project-date">Feb - Apr 2026</span></div>
+							<p>Fine-tuned and evaluated self-correction behaviors in LLMs. Executed LoRA SFT on Qwen2.5-Coder-7B-Instruct using CodeContests. Analyzed severe out-of-distribution performance shifts on HumanEval (57.93% vs 50.61% baseline), MBPP (4% vs 0%), and Codeforces (8.7% vs 0%), documenting the fragility of SFT correction patterns.</p>
+							<div class="project-tags"><span>Python</span><span>LoRA SFT</span><span>Qwen2.5-Coder</span><span>CodeContests</span><span>HumanEval</span><span>LLM Evaluation</span></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>DepScan: Hybrid Dependency Upgrade Analysis Engine</h3><span class="project-date">Feb - Mar 2026</span></div>
+							<p>Built a hybrid dependency upgrade analysis engine in Go combining native AST structural call-graph extraction with LLM reasoning (Gemini/Gemma) to evaluate upgrade safety. Natively parses Go, Python, and Node.js codebases, filtering cosmetic diffs while flagging structural breaks, signature alterations, exception semantics, and call-chain removals. Features CI/CD integrations for GitHub Action annotations and Slack Block Kit webhooks.</p>
+							<div class="project-tags"><span>Go</span><span>LLM Reasoning</span><span>AST Parser</span><span>Call Graph</span><span>CI/CD</span><span>Software Supply Chain</span></div>
+							<div class="project-card-footer"><a href="https://github.com/srivarenya01/depscan" target="_blank" rel="noopener" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a></div>
+						</div>
+						<div class="project-card">
+							<div class="project-header"><h3>ZTBI: Zero Trust Browser Interface</h3><span class="project-date">Nov - Dec 2025</span></div>
+							<p>Developed a secure browser extension running DistilBERT locally via ONNX Runtime Web. Engineered a Hybrid Scoring and Visibility Engine to detect prompt injections and sensitive PII leaks, defeating tag-splitting, indirect injection, and asynchronous exfiltration channels.</p>
+							<div class="project-tags"><span>JavaScript</span><span>ONNX Web</span><span>DistilBERT</span><span>Chrome Extension API</span><span>Browser Security</span><span>PII Leakage</span></div>
+							<div class="project-card-footer"><a href="https://github.com/srivarenya01/ztbi" target="_blank" rel="noopener" class="project-link-btn"><i class="fab fa-github"></i> View Repository</a></div>
+						</div>
+					</div>
+					<div style="text-align: center; margin: 3rem 0">
+						<a class="btn btn-primary" href="/#projects">View this in the full interactive portfolio &rarr;</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<p>&copy; 2026 Varenya Sri Mudumba. All rights reserved. &middot; <a href="/">Home</a></p>
+			</div>
+		</footer>
+	</body>
+</html>
