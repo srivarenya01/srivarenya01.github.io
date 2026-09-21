@@ -782,6 +782,19 @@ ul {
     font-weight: 500;
 }
 
+.timeline-content h4 a,
+.edu-institution a {
+    color: inherit;
+    border-bottom: 1px dotted var(--neon-cyan);
+    transition: var(--transition);
+}
+
+.timeline-content h4 a:hover,
+.edu-institution a:hover {
+    color: var(--neon-cyan);
+    border-bottom-style: solid;
+}
+
 .timeline-content ul {
     list-style-type: disc;
     margin-left: 1.5rem;

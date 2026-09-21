@@ -2,7 +2,7 @@
 
 Graduate Student in Computer Science at Texas A&M University (GPA 4.0/4.0) specializing in Zero-Trust, Cloud Infrastructure, Software Security, and Secure AI.
 
-- Website: https://srivarenya01.github.io/
+- Website: https://varenyasri.com/
 - Email: srivarenya@tamu.edu
 - Phone: +1 (979) 344-8215
 - Location: College Station, TX 77840
@@ -19,14 +19,14 @@ Also known as: Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba, varenyas
 
 ## Pages
 
-- [About](https://srivarenya01.github.io/about/)
-- [Education](https://srivarenya01.github.io/education/)
-- [Skills](https://srivarenya01.github.io/skills/)
-- [Experience](https://srivarenya01.github.io/experience/)
-- [Publications](https://srivarenya01.github.io/publications/)
-- [Projects](https://srivarenya01.github.io/projects/)
-- [Achievements](https://srivarenya01.github.io/achievements/)
-- [Contact](https://srivarenya01.github.io/contact/)
+- [About](https://varenyasri.com/about/)
+- [Education](https://varenyasri.com/education/)
+- [Skills](https://varenyasri.com/skills/)
+- [Experience](https://varenyasri.com/experience/)
+- [Publications](https://varenyasri.com/publications/)
+- [Projects](https://varenyasri.com/projects/)
+- [Achievements](https://varenyasri.com/achievements/)
+- [Contact](https://varenyasri.com/contact/)
 
 ---
 
@@ -58,8 +58,13 @@ Also known as: Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba, varenyas
 
 ## Professional Experience
 
+### Research Intern
+**Corelight** | *Jul 2026 - Aug 2026 (Remote, USA)*
+- Built a self-supervised multi-agent system (Claude on Amazon Bedrock) that reverse-engineers and statically analyzes malware through a custom 23-tool MCP server (Ghidra, radare2, capa, FLOSS, androguard) to auto-generate per-family YARA rules, with guardrails isolating the agent from the raw malware.
+- Iteratively analyzed agent transcripts and revised prompting and tool orchestration, raising detection coverage from 40-60% to 80-98% and cutting cost from ~$10 to ~$4 per family run, across a ~38K-sample corpus (138 malware families, 6 file types).
+
 ### Graduate Researcher (Dr. Marcus Botacin's Lab)
-**Texas A&M University, Department of Computer Science and Engineering** | *Aug 2025 - Present*
+**Texas A&M University, Department of Computer Science and Engineering** | *Feb 2026 - Present*
 - Researching streaming algorithms for malware analysis to enable efficient and faster YARA rule generation.
 - Testing and evaluating unique, novel, and mixed/hybrid detection algorithms.
 
@@ -68,11 +73,6 @@ Also known as: Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba, varenyas
 - Collaborating with the GAIA research group on digital agricultural challenges.
 - Scaling transfer learning models to analyze multi-spectral soil data.
 - Leveraging High-Performance Computing (HPRC) clusters to accelerate deep learning pipelines.
-
-### Undergraduate Research Assistant (Prof. Bibhash Sen's Lab)
-**NIT Durgapur** | *Jan 2023 - May 2024*
-- Developed optimization-driven test pattern generation frameworks for detecting Hardware Trojans in digital circuits.
-- Published research findings in IEEE IATMSI 2024.
 
 ### Software Development Engineer (SDE)
 **Zscaler** | *Dec 2024 - Aug 2025*
@@ -91,8 +91,13 @@ Also known as: Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba, varenyas
 - Developed dashboards in Kibana/OpenSearch to monitor 1,000+ metrics and analyze performance bottlenecks.
 
 ### Software Developer Intern
-**Athen Tech India** | *Jul 2023 - Jul 2023*
+**Athen Tech India** | *Jul 2023*
 - Developed a customer-facing chatbot in JavaScript, integrating Rule-Based NLP to resolve over 60% of common support inquiries.
+
+### Undergraduate Research Assistant (Prof. Bibhash Sen's Lab)
+**NIT Durgapur** | *2023 - 2024*
+- Developed optimization-driven test pattern generation frameworks for detecting Hardware Trojans in digital circuits.
+- Published research findings in IEEE IATMSI 2024.
 
 ---
 
@@ -117,6 +122,12 @@ Secure middleware designed for Model Context Protocol (MCP) servers and clients.
 An advanced loss formulation targeting general continual learning settings.
 - Designed a phase-aware strictness scheduler based on expected output entropy and a Leitner-box retry-escalation mechanism.
 - Evaluated performance on TAMU HPRC clusters over synthetic datasets, documenting improvements in catastrophic forgetting on GLUE benchmarks for BERT and GPT-2.
+
+### Poisoned Pipelines: Threat Taxonomy and Defense for Agentic-AI and MCP
+*Manuscript under double-blind review.*
+A threat taxonomy and architectural attack model for agentic AI coding tools (Claude Code, Cursor, Copilot Workspace) and the Model Context Protocol (MCP) ecosystem.
+- Defined seven threat classes unified by a "trust laundering" meta-concept, with novel primitives (JSON Encoding Layer Bypass, Agentic CLI Relay).
+- Mapped 17 disclosed CVEs onto the taxonomy with STRIDE analysis and a layered, defense-in-depth mitigation framework, aligned to OWASP LLM Top 10 and MITRE ATLAS.
 
 ### DepScan: Hybrid Dependency Upgrade Analysis Engine
 *Repository link: https://github.com/srivarenya01/depscan*
@@ -164,7 +175,7 @@ Chrome extension built to protect against prompt injection and data exfiltration
 
 ## Off the Clock (Extra Activities)
 
-- **Chess Board**: Casual chess player with a peak rating of 989. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
-- **Certified Otaku**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
+- **Chess Board**: Casual chess player with a peak rating of 1053. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
+- **Certified Otaku**: Completed 264+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
 - **Gaming**: Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top-tier survival rates and quick reflexes.
 - **Urban Explorer**: Logged 35,000+ steps in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.

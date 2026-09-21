@@ -5,7 +5,7 @@
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mudumbasrivarenya/)
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-007bff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srivarenya01.github.io/)
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-007bff?style=for-the-badge&logo=google-chrome&logoColor=white)](https://varenyasri.com/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivarenya@tamu.edu)
 [![TAMU](https://img.shields.io/badge/Texas_A&M-500000?style=for-the-badge&logo=texas-a%26m-university&logoColor=white)](https://www.tamu.edu/)
 
@@ -15,11 +15,11 @@
 
 ## About Me
 
-I am a Graduate Computer Science student at Texas A&M University (GPA 4.0/4.0), specializing in Systems Security and Machine Learning. I conduct research under **Dr. Marcus Botacin's Lab** focusing on malware analysis, system threat modeling, and streaming algorithms. I also collaborate with the GAIA research group on scaling deep transfer learning pipelines on High-Performance Computing (HPRC) clusters.
+I am a Graduate Computer Science student at Texas A&M University (GPA 4.0/4.0), specializing in Systems Security and Machine Learning. I most recently researched at **Corelight**, building self-supervised AI-agent systems (Claude on Amazon Bedrock) for automated malware analysis and YARA rule generation. I conduct research under **Dr. Marcus Botacin's Lab** focusing on malware analysis, system threat modeling, and streaming algorithms. I also collaborate with the GAIA research group on scaling deep transfer learning pipelines on High-Performance Computing (HPRC) clusters.
 
-Currently seeking Summer 2026 internships in Research, Security & SDE.
+Currently seeking full-time 2027 new-grad roles in Security, AI/ML, and Software Engineering.
 
-> **Live portfolio:** https://srivarenya01.github.io/ &nbsp;·&nbsp; also known as Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba.
+> **Live portfolio:** https://varenyasri.com/ &nbsp;·&nbsp; also known as Mudumba Sri Varenya, M Sri Varenya, Sri Varenya Mudumba.
 
 ---
 
@@ -56,6 +56,13 @@ _Phase-Aware Continual Learning (Code withheld: Part of double-blind review at c
 
 - Designed a phase-aware loss strictness scheduler driven by expected output entropy.
 - Implemented a Leitner-box retry-escalation mechanism and evaluated it on BERT/GPT-2 over TAMU HPRC clusters.
+
+### Poisoned Pipelines: Agentic-AI & MCP Threat Model
+
+_Threat taxonomy and defense framework (Manuscript under double-blind review)_
+
+- Defined seven threat classes for agentic AI coding tools and MCP, mapped to OWASP LLM Top 10 and MITRE ATLAS.
+- Mapped 17 disclosed CVEs with STRIDE analysis and layered, defense-in-depth mitigations.
 
 ### [DepScan: Hybrid Dependency Upgrade Analysis Engine](https://github.com/srivarenya01/depscan)
 
@@ -95,8 +102,8 @@ _ML-Driven Threat Detection_
 
 ## Off the Clock (Extra Activities)
 
-- **Chess Board**: Casual chess player with a peak rating of 989. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
-- **Certified Otaku**: Completed 258+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
+- **Chess Board**: Casual chess player with a peak rating of 1053. Proven ability to solve chess positions on an actual physical board, not just on LeetCode.
+- **Certified Otaku**: Completed 264+ series. The website design themes and Conqueror's Haki effects are a direct tribute to One Piece.
 - **Gaming**: Highly skilled in tactical coordination and observation across precision combat games and open-world gacha RPGs, maintaining top-tier survival rates and quick reflexes.
 - **Urban Explorer**: Logged 35,000+ steps in a single day (personal record). Traveled across 3 nations on Earth and 8 nations in Teyvat.
 

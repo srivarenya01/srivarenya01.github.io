@@ -1,4 +1,4 @@
-# robots.txt for https://srivarenya01.github.io/
+# robots.txt for https://varenyasri.com/
 # All crawlers welcome - including AI / answer-engine crawlers.
 
 User-agent: *
@@ -44,4 +44,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://srivarenya01.github.io/sitemap.xml
+Sitemap: https://varenyasri.com/sitemap.xml
